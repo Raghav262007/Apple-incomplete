@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+  color: azure;
+  margin: 20px;
+  padding: 5px;
+}
+
+img.template-apple {
+  margin: 0px;
+  width: 1320px;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template: 750px 500px 650px 500px 750px / repeat(12, 1fr);
+  grid-gap: 20px;
+
+  /*grid-template-areas:
+    "i i i i i i i i i i i i"
+    "w w w w w w w w w w w w"
+    "s s s s s s s s s s s s"
+    "o o o o o o o o o o o o"
+    "e e e e e e e e e e e e";*/
+}
+.imgDiv {
+  grid-column: 1/-1;
+}
+
+.div1 {
+  grid-column: 1/-1;
+  background-color: burlywood;
+  align-items: flex-start;
+}
+.whyImg {
+}
+
+.showcasing-series6 {
+  grid-column: 1/-1;
+  background-color: cadetblue;
+}
+
+.watchOS7 {
+  grid-column: 1/-1;
+  background-color: coral;
+}
+
+.watch-SE {
+  grid-column: 1/-1;
+  background-color: crimson;
+}
+
+.logo {
+  height: 50px;
+  width: 40px;
+}
